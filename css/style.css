@@ -1,0 +1,136 @@
+*{
+	margin:0 auto;
+    padding: 0 ;
+}
+a {
+	text-decoration:none;
+	color:#666;
+}
+li {
+	list-style:none; 
+	font-size:12px;
+}
+img {
+	border:none;
+}
+/*顶部样式*/
+.head {
+	width:1260px;
+	height:59px;
+}
+.head1 {
+	width:705px;
+	height:59px;
+	float:left;
+	background:url(../img/pic_doodle_may.jpg);
+	padding-left:28px;
+}
+.head1 .img {
+	width:160px;
+	height:59px;
+	float:left;
+}
+.head1 .search {
+	width:545px;
+	height:59px;
+	float:left;
+}
+.head1 .search .text {
+	width:380px;
+	height:28px;
+	margin:15 0 0 15;
+	border:1px #a3cbff solid;
+
+}
+.text .text1 {
+	border:0;
+	width:340px;
+	height:28px;
+	float:left;
+}
+.text .text2 {
+	width:40px;
+	height:28px;
+	float:left;
+}
+.head2 {
+	float:left;
+	height:59px;
+	width:527px;
+}
+.head2 .serve {
+	float:left;
+	width:380px;
+	height:59px;
+}
+.head2 .serve ul {
+	padding-left:10px;
+}
+.head2 .serve ul li {
+	float:left;
+	padding:0 10;
+	border-right:1px solid #b2b2b2;
+	line-height:20px;
+	margin-top:15px;
+	font-size:12px;
+	height:20px;
+}
+.head2 .serve ul li img {
+	height:15px;
+	
+}
+.head2 .serve .tel a {
+	color:#8089d3;
+}
+.serve ul li span {
+	line-height:20px;
+}
+.head2 .serve .tel {
+	border:0;
+}
+.head2 img {
+	height:59px;
+}
+/*导航样式*/
+.nav {
+	width:100%;
+	height:40px;
+	background:#2577e3;
+}
+.nav .nav1 {
+	width:1220px;
+	height:40px;
+	
+}
+.nav .nav1 ul {
+	height:40px;
+	padding-left:0;
+	width:1000px;
+	float:left;
+}
+.nav .nav1 ul li {
+	margin-top:10px;
+	height:20px;
+	float:left;
+	padding:0 5px;
+	border-right:1px solid #1c67dc;
+}
+.nav .nav1 ul li a {
+	color:#fff;
+}
+.nav1 select {
+	color:#fff;
+	border:none;
+	background-color:#2577e3;
+	font-size:12px;
+}
+.nav .nav1 ul .last {
+	border:0;
+}
+.nav2 {
+	float:right;
+	width:160px;
+	height:40px;
+	background: red;
+}
+ 
